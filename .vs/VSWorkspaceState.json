@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Assets",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Release",
+    "\\Converters",
+    "\\Models",
+    "\\ViewModels",
+    "\\Views"
+  ],
+  "SelectedNode": "\\Models\\RealNumber.cs",
+  "PreviewInSolutionExplorer": false
+}

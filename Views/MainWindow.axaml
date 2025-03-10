@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:Date_task1.ViewModels"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Date_task1.Views.MainWindow"
+        Title="Date - demonstration"
+        Width="400" Height="400"
+        x:DataType="viewModels:MainViewModel"
+        x:CompileBindings="True">
+    <Design.DataContext>
+        <viewModels:MainViewModel/>
+    </Design.DataContext>
+    <StackPanel Margin="20">
+        <TextBlock Text="Дата: " />
+        <TextBox Text="{Binding InputDate}" Watermark="dd.MM.yyyy" Margin="5"/>
+        <Button Content="Set date" Command="{Binding SetDateCommand}" Margin="5" />
+
+        <TextBlock Text="Number of Time Units:" Margin="5" />
+        <TextBox Text="{Binding NumberOfUnits}" Watermark="Enter number of days" Margin="5"/>
+        
+        <Button Content="Add Days" Command="{Binding AddDayCommand}" Margin="5" />
+        <Button Content="Add Months" Command="{Binding AddMonthCommand}" Margin="5" />
+        <Button Content="Add Years" Command="{Binding AddYearCommand}" Margin="5" />
+        <TextBlock Text="{Binding CurrentDate}" Margin="5" />
+        <TextBlock Text="{Binding ErrorMessage}" Foreground="Red" Margin="5" />
+    </StackPanel>
+</Window>

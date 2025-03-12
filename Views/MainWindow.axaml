@@ -13,7 +13,7 @@
         <viewModels:MainViewModel/>
     </Design.DataContext>
     <StackPanel Margin="20">
-        <TextBlock Text="Дата: " />
+        <TextBlock Text="Date: " />
         <TextBox Text="{Binding InputDate}" Watermark="dd.MM.yyyy" Margin="5"/>
         <Button Content="Set date" Command="{Binding SetDateCommand}" Margin="5" />
 

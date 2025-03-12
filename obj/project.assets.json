@@ -1753,19 +1753,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Danni\\.nuget\\packages\\": {}
+    "C:\\Users\\Danila\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Danni\\Desktop\\Date_task1\\Date_task1.csproj",
+      "projectUniqueName": "C:\\Users\\Danila\\Desktop\\Date_task1\\Date_task1.csproj",
       "projectName": "Date_task1",
-      "projectPath": "C:\\Users\\Danni\\Desktop\\Date_task1\\Date_task1.csproj",
-      "packagesPath": "C:\\Users\\Danni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Danni\\Desktop\\Date_task1\\obj\\",
+      "projectPath": "C:\\Users\\Danila\\Desktop\\Date_task1\\Date_task1.csproj",
+      "packagesPath": "C:\\Users\\Danila\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Danila\\Desktop\\Date_task1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Danni\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Danila\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -1840,7 +1840,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Danni\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Danila\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
